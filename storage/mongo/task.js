@@ -55,7 +55,7 @@ let taskStorage = {
 
     getAll: async () => {
         try {
-            const res = await Task.find();
+            const res = await Task.find({});
             return res;
         } catch (error) {
             throw new Error(error.message);
