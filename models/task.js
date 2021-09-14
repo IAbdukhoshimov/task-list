@@ -9,7 +9,7 @@ const TaskSchema = new Schema({
             return uuidv4();
         }
     },
-    tittle: {
+    title: {
         type: String
     },
     status: {

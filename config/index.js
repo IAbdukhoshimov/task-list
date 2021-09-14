@@ -5,7 +5,7 @@ const config = {
     mongoUser: getConf("MONGO_USER", ""),
     mongoPassword: getConf("MONGO_PASSWORD", ""),
     mongoDatabase: getConf("MONGO_DATABASE", "task-skill2"),
-    HTTPPort: getConf("HTTP_PORT", 5000)
+    HTTPPort: getConf("HTTP_PORT", )
 };
 
 function getConf(name, def = "") {
