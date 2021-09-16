@@ -32,7 +32,7 @@ function main() {
                 error: error
             });
 
-            process.exit(1);
+            process.exit(1)
         });
 
     let app = express();
